@@ -1,0 +1,134 @@
+body{
+    background-color: #F0F2F5;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.loginfontsize{
+    font-size: 20px;
+}
+.maincontainer{
+    text-align: center;
+}
+.textcard{
+    display: inline-block;
+    transform: translateY(0%);
+}
+.creatpage{
+    display: inline-block;
+    margin-top: 20px;
+    
+}
+.creatpagep{
+    font-size: 15px;
+}
+div>h1{
+    color: blue;
+    text-align: left;
+    font-size: 50px;
+    padding-bottom: 0px;
+}
+div>p{
+    font-size: 30px;
+    text-align: left;
+    padding-top: 0px;
+}
+.logincard{
+   border: 1px solid #ccd0d5;
+   border-radius: 5px;
+   width: 450px;
+   height: 400px;
+   background-color: white;
+   display: inline-block;
+   transform: translateY(40%);
+   margin-left: 50px;
+}
+.inputbox{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 2px solid #F0F2F5;
+    padding: 10px ;
+    outline: none;
+}
+.inputbox[type=text]:focus{
+    border: 2px solid #0866FF;
+}
+.inputbox[type=password]:focus{
+    border: 2px solid #0866FF;
+}
+.loginbtn{
+    background-color: #0866FF;
+    color: white;
+    border: none;
+}
+.loginbtn:hover{
+    background-color: #317cf5;
+}
+.creatbtn{
+    width: 200px;
+    height: 50px;
+    background-color: #36A420;
+    color: white;
+    margin-top: 50px;  
+    border-radius: 5px;
+    border: none;
+}
+.creatbtn:hover{
+    background-color: #1c7e08;
+}
+a{
+    color: blue;
+    font-size: 15px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+/* Signup Popup CSS Start */
+.popup{
+    width: 300px;
+    border: 2px solid;
+    padding: 20px;
+    display: none;
+    margin: 80px auto;
+}
+.popup.show{
+    display: block;
+}
+.h2h5{
+    margin-top: -30px;
+}
+.namebox{
+    width: 135px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.emailbox{
+    width: 280px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.textsm{
+    font-size: 12px;
+    color: rgb(123, 120, 120);
+}
+.genders{
+    border: 1px solid;
+    padding: 5px;
+    margin: 10px 10px 10px 10px;
+}
+.btn{
+    background-color: #36A420;
+    color: white;
+    font-weight: bolder;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #156007;
+}
+.btndiv{
+    text-align: center;
+}

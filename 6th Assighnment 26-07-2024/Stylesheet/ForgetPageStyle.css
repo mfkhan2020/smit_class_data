@@ -1,0 +1,108 @@
+body{
+    background-color: #e9ebee;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+/* .loginfontsize{
+    font-size: 20px;
+} */
+/* .maincontainer{
+    text-align: center;
+} */
+h1{
+    color: blue;
+    text-align: left;
+    font-size: 20px;
+    display: inline-block;
+}
+.navform{
+    display: inline;
+    float: right;
+}
+/* div>p{
+    font-size: 30px;
+    text-align: left;
+    padding-top: 0px;
+} */
+.loginbar{
+   background-color: white;
+   padding: 10px 30px 10px 10px;
+   display: block;
+}
+.findcard{
+    background-color: white;
+    padding: 10px 30px 10px 10px;
+    border-radius: 5px;
+    display: block;
+    width: 450px;
+    height: 250px;
+    margin: 50px auto;
+ }
+ .findinput{
+    width: 450px;
+    height: 20px;
+    border-radius: 5px;
+    margin: auto;
+    display: block;
+    border: 2px solid #F0F2F5;
+    padding: 10px ;
+    outline: none;
+ }
+.inputbox{
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+    /* display: inline-block; */
+    border: 2px solid #F0F2F5;
+    padding: 10px ;
+    outline: none;
+}
+.btndiv{
+    float: right;
+}
+.inputbox[type=text]:focus{
+    border: 2px solid #0866FF;
+}
+.inputbox[type=password]:focus{
+    border: 2px solid #0866FF;
+}
+.loginbtn{
+    background-color: #0866FF;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    height: 40px;
+}
+.loginbtn:hover{
+    background-color: #317cf5;
+}
+.bottombtn{
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bolder;
+    margin: 10px;
+    display: inline-block;
+}
+.btncancel{
+    background-color: #e4e6eb;
+    color: rgb(77, 83, 83);
+}
+.btnsearch{
+    background-color: #0866FF;
+    color: white;
+}
+.creatbtn:hover{
+    background-color: #1c7e08;
+} 
+a{
+    color: blue;
+    font-size: 15px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}

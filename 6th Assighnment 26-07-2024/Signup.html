@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .popup{
+            width: 300px;
+            border: 2px solid;
+            padding: 20px;
+            display: none;
+            margin: 80px auto;
+        }
+        .popup.show{
+            display: block;
+        }
+        .h2h5{
+            margin-top: -30px;
+        }
+        .namebox{
+            width: 135px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .emailbox{
+            width: 280px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .textsm{
+            font-size: 12px;
+            color: rgb(123, 120, 120);
+        }
+        .genders{
+            border: 1px solid;
+            padding: 5px;
+            margin: 10px 10px 10px 10px;
+        }
+        .btn{
+            background-color: #36A420;
+            color: white;
+            font-weight: bolder;
+            width: 150px;
+            height: 30px;
+            border: none;
+            border-radius: 5px;
+        }
+        .btn:hover{
+            background-color: #156007;
+        }
+        .btndiv{
+            text-align: center;
+        }
+    </style>
+    
+</head>
+<body>
+    <button type="button" class="btn" onclick="togglePopup()">click it</button>
+    <div class="popup" id="popup">
+        <div class="h2h5">
+            <h2>Sign Up</h2>
+            <h5>It's quick and easy.</h5>
+        </div>
+        <div>
+        <hr>
+           <form action="">
+                <input type="text" placeholder="First Name" class="namebox">
+                <input type="text" placeholder="Surname" class="namebox">
+                <input type="text" class="emailbox" placeholder="Mobile Number or Email Address">
+                <input type="password" class="emailbox" placeholder="Password">
+                <label for="" class="textsm">Date of Birth</label>
+                <br>
+                <input type="date">
+                <br>
+                <label for="" class="textsm">Gender</label>
+                <br>
+                <label for="" class="genders">Female<input type="radio" name="radio"></label>
+                <label for="" class="genders">Male<input type="radio" name="radio"></label>
+                <label for="" class="genders">Custom<input type="radio" name="radio"></label>
+            </form>
+        </div>
+
+        <p class="textsm">People who use our service may have uploaded your contact information to Facebook. Learn more.</p>
+        <p class="textsm">By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.</p>
+        <div class="btndiv">
+            <button type="submit" class="btn">Sign up</button>
+        </div>
+    </div>
+    <button type="button" class="btn" onclick="togglePopup()">close it</button>
+
+    <script>
+        function togglePopup() {
+            let popup = document.getElementById('popup');
+            popup.classList.toggle('show');
+        }
+    </script>    
+</body>
+</html>
