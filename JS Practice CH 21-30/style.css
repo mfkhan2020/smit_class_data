@@ -1,0 +1,64 @@
+h1{
+    color: blue;
+    text-align: center;
+    font-size: 5rem;
+    text-decoration: underline;
+}
+h2{
+    color: teal;
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: underline;
+}
+h3{
+    color: brown;
+}
+h4{
+    color: forestgreen;
+    font-size: 1.6rem;
+}
+.div-1{
+    border: solid blueviolet;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 15px;
+    width: 50%;
+}
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: crimson;
+    color: white;
+    font-size: 20px;
+    margin: 20px;
+}
+body{
+    background-color: lightpink;
+    padding: 20px;
+    background-image: url(js-file.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: soft-light;
+}
+.div-card1{
+    
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+.div-main{
+    border: dashed darkgreen;
+    border-radius: 10px;
+}
+p{
+    color: darkmagenta;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.2rem;
+}
+hr{
+    border: 1px solid darkred;
+    margin-top: 20px
+}
